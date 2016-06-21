@@ -1,0 +1,6 @@
+framework module HiPay {
+  umbrella header "HiPay-umbrella.h"
+
+  export *
+  module * { export * }
+}

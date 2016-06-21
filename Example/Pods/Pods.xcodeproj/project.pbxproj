@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10809733D476369AA0224F1055558E91 /* HiPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2D7CD4D39B6DBDB9424F4C199AB3BA /* HiPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145BC7E80EAAAFF6FD6FA412029838E1 /* Pods-HiPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFCB3BC77BEED405DF2B79251F776DA /* Pods-HiPay_Tests-dummy.m */; };
+		6BBDCD080A03227F6C696782D365A450 /* Pods-HiPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5709BBA4AE32A5BA56AB1066CA6199B /* Pods-HiPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8343D7DCB92E7514256C68DEA1EAD2A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		99345D9809A2153B9A8CF27DF33BBE66 /* Pods-HiPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 916E73393D59819D4D0688851BE1CC1C /* Pods-HiPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD6F3125EFDE5491385FB4838E6B876 /* Pods-HiPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E4A75FD8A9BF93FC3D9C74AB70C92 /* Pods-HiPay_Example-dummy.m */; };
+		BBB73D803BF7381527872DEF12C66D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EE39B05FC0E34C9B53B5C82309763CA9 /* HiPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF262501444A3175754D9345945B1189 /* HiPay-dummy.m */; };
+		F169FDAB1B19BF22138369BE43E08C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FF6858ABA50762726EA9B395E9EC371C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693EACBCB6AD61A0AEDF86C614FE1904 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A6AA31A8F4C1FEDBFD536E157794679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CFB057776A5B8FE6A00EA2CD8BA806;
+			remoteInfo = HiPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		236AD3FB412D3C567AAF8AF578381F96 /* HiPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiPay.xcconfig; sourceTree = "<group>"; };
+		29866B7FCDC3248C0F204C58432F599B /* HiPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiPay-prefix.pch"; sourceTree = "<group>"; };
+		2B853E059CBF5C141F15C3B4B0B36C0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303EC1EFCBC0380474C46E5B285C0A94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FCA9445772FE24494870CDC674C123 /* Pods-HiPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A0AEE70830693CAFA9A9EFBC1F82341 /* Pods-HiPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HiPay_Tests.modulemap"; sourceTree = "<group>"; };
+		3EE40F8E39C98DC1F505B0619B474B2C /* Pods-HiPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		401BD953BC67EB3163619B1745BB9260 /* Pods-HiPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45EB297C4E4965D4F78AEF65C4D3CF43 /* Pods-HiPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HiPay_Example.modulemap"; sourceTree = "<group>"; };
+		4D88A4A2701AF948394E18AA070A5DB1 /* Pods-HiPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		50BBAE1BD4F317FC57B4BFE166ED705C /* HiPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HiPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		585C9B0686F524B825A551E7995E590E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589BEDD9A15B15F9B432062B9563DD7A /* Pods-HiPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A0B722C19A8DA4460462845DFC87F1C /* Pods-HiPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F6F031DDCF5E32407A904A207576800 /* Pods-HiPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		693EACBCB6AD61A0AEDF86C614FE1904 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		6D54092C923D1C2221E7E1C121CC6A19 /* Pods-HiPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiPay_Example-resources.sh"; sourceTree = "<group>"; };
+		74D9BE2BB4DD7F0919CC62BE0BB89ED9 /* Pods-HiPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		779646F5E281A263FE135281BB77F66C /* Pods-HiPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8554582069101506E6B552AFEDA73638 /* Pods_HiPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F5A4FC42B38790B03862CED963A17F /* Pods-HiPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiPay_Tests-resources.sh"; sourceTree = "<group>"; };
+		8ABB874936F21A03BF819BB2C840D448 /* Pods_HiPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9E4A75FD8A9BF93FC3D9C74AB70C92 /* Pods-HiPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiPay_Example-dummy.m"; sourceTree = "<group>"; };
+		916E73393D59819D4D0688851BE1CC1C /* Pods-HiPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5709BBA4AE32A5BA56AB1066CA6199B /* Pods-HiPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		A64294269689711D27767683FC4EFAA5 /* Pods-HiPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD2D7CD4D39B6DBDB9424F4C199AB3BA /* HiPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiPay-umbrella.h"; sourceTree = "<group>"; };
+		BF262501444A3175754D9345945B1189 /* HiPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HiPay-dummy.m"; sourceTree = "<group>"; };
+		CDFCB3BC77BEED405DF2B79251F776DA /* Pods-HiPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFA24A58837B3E1658D76041E1A1DE1A /* HiPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HiPay.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138F132B0BB78CBAF8B39679FF2E686F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F169FDAB1B19BF22138369BE43E08C21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA465C4B5DB9A22BB2030E687979DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8343D7DCB92E7514256C68DEA1EAD2A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2FEF6AA7DF34F39237F8875FCD7442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB73D803BF7381527872DEF12C66D14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FA254A1BB59144333F2F525C8A5A7A /* Pods-HiPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				303EC1EFCBC0380474C46E5B285C0A94 /* Info.plist */,
+				3A0AEE70830693CAFA9A9EFBC1F82341 /* Pods-HiPay_Tests.modulemap */,
+				34FCA9445772FE24494870CDC674C123 /* Pods-HiPay_Tests-acknowledgements.markdown */,
+				589BEDD9A15B15F9B432062B9563DD7A /* Pods-HiPay_Tests-acknowledgements.plist */,
+				CDFCB3BC77BEED405DF2B79251F776DA /* Pods-HiPay_Tests-dummy.m */,
+				4D88A4A2701AF948394E18AA070A5DB1 /* Pods-HiPay_Tests-frameworks.sh */,
+				89F5A4FC42B38790B03862CED963A17F /* Pods-HiPay_Tests-resources.sh */,
+				916E73393D59819D4D0688851BE1CC1C /* Pods-HiPay_Tests-umbrella.h */,
+				A64294269689711D27767683FC4EFAA5 /* Pods-HiPay_Tests.debug.xcconfig */,
+				5A0B722C19A8DA4460462845DFC87F1C /* Pods-HiPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-HiPay_Tests";
+			path = "Target Support Files/Pods-HiPay_Tests";
+			sourceTree = "<group>";
+		};
+		2A56BD8878C22F2700AC9D077C5F7A3B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A58E3FFCD544512D7AE9DB807CEA05 /* HiPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2B136BA7C6451825B04212E0CD39309E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				693EACBCB6AD61A0AEDF86C614FE1904 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		34A58E3FFCD544512D7AE9DB807CEA05 /* HiPay */ = {
+			isa = PBXGroup;
+			children = (
+				C6553EC13ED5E4B6932AA8151E293193 /* HiPay */,
+				DE63C2B910DF7BB629CDD2681F0771F9 /* Support Files */,
+			);
+			name = HiPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6ABD4307145CADC86B63A56496A1A567 /* Pods-HiPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				585C9B0686F524B825A551E7995E590E /* Info.plist */,
+				45EB297C4E4965D4F78AEF65C4D3CF43 /* Pods-HiPay_Example.modulemap */,
+				401BD953BC67EB3163619B1745BB9260 /* Pods-HiPay_Example-acknowledgements.markdown */,
+				3EE40F8E39C98DC1F505B0619B474B2C /* Pods-HiPay_Example-acknowledgements.plist */,
+				8C9E4A75FD8A9BF93FC3D9C74AB70C92 /* Pods-HiPay_Example-dummy.m */,
+				74D9BE2BB4DD7F0919CC62BE0BB89ED9 /* Pods-HiPay_Example-frameworks.sh */,
+				6D54092C923D1C2221E7E1C121CC6A19 /* Pods-HiPay_Example-resources.sh */,
+				A5709BBA4AE32A5BA56AB1066CA6199B /* Pods-HiPay_Example-umbrella.h */,
+				779646F5E281A263FE135281BB77F66C /* Pods-HiPay_Example.debug.xcconfig */,
+				5F6F031DDCF5E32407A904A207576800 /* Pods-HiPay_Example.release.xcconfig */,
+			);
+			name = "Pods-HiPay_Example";
+			path = "Target Support Files/Pods-HiPay_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2A56BD8878C22F2700AC9D077C5F7A3B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A016109C8F6B905916CB39C980442990 /* Products */,
+				D455D2F030B768CA03B72E3F484D5427 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A016109C8F6B905916CB39C980442990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50BBAE1BD4F317FC57B4BFE166ED705C /* HiPay.framework */,
+				8ABB874936F21A03BF819BB2C840D448 /* Pods_HiPay_Example.framework */,
+				8554582069101506E6B552AFEDA73638 /* Pods_HiPay_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6553EC13ED5E4B6932AA8151E293193 /* HiPay */ = {
+			isa = PBXGroup;
+			children = (
+				2B136BA7C6451825B04212E0CD39309E /* Classes */,
+			);
+			path = HiPay;
+			sourceTree = "<group>";
+		};
+		D455D2F030B768CA03B72E3F484D5427 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD4307145CADC86B63A56496A1A567 /* Pods-HiPay_Example */,
+				13FA254A1BB59144333F2F525C8A5A7A /* Pods-HiPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DE63C2B910DF7BB629CDD2681F0771F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA24A58837B3E1658D76041E1A1DE1A /* HiPay.modulemap */,
+				236AD3FB412D3C567AAF8AF578381F96 /* HiPay.xcconfig */,
+				BF262501444A3175754D9345945B1189 /* HiPay-dummy.m */,
+				29866B7FCDC3248C0F204C58432F599B /* HiPay-prefix.pch */,
+				AD2D7CD4D39B6DBDB9424F4C199AB3BA /* HiPay-umbrella.h */,
+				2B853E059CBF5C141F15C3B4B0B36C0B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HiPay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		063853256052D26268278B83F57E77EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99345D9809A2153B9A8CF27DF33BBE66 /* Pods-HiPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D69A8FCAED44AFD4A69DE383059106 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBDCD080A03227F6C696782D365A450 /* Pods-HiPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C15487DA06EE3FF369B21EB0000E14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10809733D476369AA0224F1055558E91 /* HiPay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33CFB057776A5B8FE6A00EA2CD8BA806 /* HiPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEDA8A965FE082C38EBCF52D88FFD05 /* Build configuration list for PBXNativeTarget "HiPay" */;
+			buildPhases = (
+				5F216D3A3B524E2FE82ACC4AAF04BD24 /* Sources */,
+				AE2FEF6AA7DF34F39237F8875FCD7442 /* Frameworks */,
+				B3C15487DA06EE3FF369B21EB0000E14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiPay;
+			productName = HiPay;
+			productReference = 50BBAE1BD4F317FC57B4BFE166ED705C /* HiPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE9903D4BB0E1CBC740D4B428F736B4E /* Pods-HiPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835511A5E7B7600128A2DB5A82D9A409 /* Build configuration list for PBXNativeTarget "Pods-HiPay_Tests" */;
+			buildPhases = (
+				77FBA72D37C7B200263C03FE85B286AA /* Sources */,
+				1EA465C4B5DB9A22BB2030E687979DEC /* Frameworks */,
+				063853256052D26268278B83F57E77EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HiPay_Tests";
+			productName = "Pods-HiPay_Tests";
+			productReference = 8554582069101506E6B552AFEDA73638 /* Pods_HiPay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3AB6E1CDFD8F8A23AAD3DE2A14C67A8 /* Pods-HiPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64453800EB7CDA831117F571EBB70ABF /* Build configuration list for PBXNativeTarget "Pods-HiPay_Example" */;
+			buildPhases = (
+				DA524B674237F95631295A647E667814 /* Sources */,
+				138F132B0BB78CBAF8B39679FF2E686F /* Frameworks */,
+				42D69A8FCAED44AFD4A69DE383059106 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C8E42884227F1422BDC3FB4A1137F0D /* PBXTargetDependency */,
+			);
+			name = "Pods-HiPay_Example";
+			productName = "Pods-HiPay_Example";
+			productReference = 8ABB874936F21A03BF819BB2C840D448 /* Pods_HiPay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A016109C8F6B905916CB39C980442990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CFB057776A5B8FE6A00EA2CD8BA806 /* HiPay */,
+				F3AB6E1CDFD8F8A23AAD3DE2A14C67A8 /* Pods-HiPay_Example */,
+				BE9903D4BB0E1CBC740D4B428F736B4E /* Pods-HiPay_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F216D3A3B524E2FE82ACC4AAF04BD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE39B05FC0E34C9B53B5C82309763CA9 /* HiPay-dummy.m in Sources */,
+				FF6858ABA50762726EA9B395E9EC371C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FBA72D37C7B200263C03FE85B286AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145BC7E80EAAAFF6FD6FA412029838E1 /* Pods-HiPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA524B674237F95631295A647E667814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6F3125EFDE5491385FB4838E6B876 /* Pods-HiPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C8E42884227F1422BDC3FB4A1137F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HiPay;
+			target = 33CFB057776A5B8FE6A00EA2CD8BA806 /* HiPay */;
+			targetProxy = 9A6AA31A8F4C1FEDBFD536E157794679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31D16540CCC24F0139970A8B67644A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779646F5E281A263FE135281BB77F66C /* Pods-HiPay_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HiPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiPay_Example/Pods-HiPay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HiPay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C15989E0EB47029F41823FDD59B215A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236AD3FB412D3C567AAF8AF578381F96 /* HiPay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HiPay/HiPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HiPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HiPay/HiPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HiPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FE251501C50D238BC61374CF4986BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6F031DDCF5E32407A904A207576800 /* Pods-HiPay_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HiPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiPay_Example/Pods-HiPay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HiPay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86BB1BC7649DC9BFA999C7FA79A2CB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236AD3FB412D3C567AAF8AF578381F96 /* HiPay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HiPay/HiPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HiPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HiPay/HiPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HiPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E19EEA96C12877C63DD09CD81950B62B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64294269689711D27767683FC4EFAA5 /* Pods-HiPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HiPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiPay_Tests/Pods-HiPay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HiPay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECBDD12F26097AEEBEA3DA8C6628AD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0B722C19A8DA4460462845DFC87F1C /* Pods-HiPay_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HiPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiPay_Tests/Pods-HiPay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HiPay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64453800EB7CDA831117F571EBB70ABF /* Build configuration list for PBXNativeTarget "Pods-HiPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D16540CCC24F0139970A8B67644A1C /* Debug */,
+				5FE251501C50D238BC61374CF4986BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835511A5E7B7600128A2DB5A82D9A409 /* Build configuration list for PBXNativeTarget "Pods-HiPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19EEA96C12877C63DD09CD81950B62B /* Debug */,
+				ECBDD12F26097AEEBEA3DA8C6628AD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEDA8A965FE082C38EBCF52D88FFD05 /* Build configuration list for PBXNativeTarget "HiPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C15989E0EB47029F41823FDD59B215A /* Debug */,
+				86BB1BC7649DC9BFA999C7FA79A2CB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

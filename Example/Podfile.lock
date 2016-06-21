@@ -1,0 +1,16 @@
+PODS:
+  - HiPay (0.1.0)
+
+DEPENDENCIES:
+  - HiPay (from `../`)
+
+EXTERNAL SOURCES:
+  HiPay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HiPay: 34cb02f6918efee782af91a802f18cc63c3bcc14
+
+PODFILE CHECKSUM: 7e8451f86623f8027ba6f5a23af548c3919adc0f
+
+COCOAPODS: 1.0.0
