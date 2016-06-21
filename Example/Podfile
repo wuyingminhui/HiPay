@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HiPay_Example' do
+  pod 'HiPay', :path => '../'
+
+  target 'HiPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
