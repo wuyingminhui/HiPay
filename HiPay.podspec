@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HiPay'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Payment util with swift'
 
 # This description is used to generate tags and improve search results.
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'WxPay' do |wx|
-    wx.source_files = HiPay/Classes/WxSDK/*.h'
+    wx.source_files = 'HiPay/Classes/WxSDK'
     wx.vendored_libraries = 'HiPay/Classes/WxSDK/*.a'
     wx.public_header_files = 'HiPay/Classes/WxSDK/*.h'
     wx.ios.library = 'sqlite3.0'
