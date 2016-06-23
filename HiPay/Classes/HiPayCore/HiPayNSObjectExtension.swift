@@ -17,16 +17,9 @@ extension NSObject {
      - returns: 如果转换成功，返回AnyClass，否则返回nil
      */
     class func hipay_classFromString(className: String) -> AnyClass? {
-        if  let appName: String? = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleName") as! String? {
-            let classStringName = "_TtC\(appName!.characters.count)\(appName!)\(className.characters.count)\(className)"
-            let  cls: AnyClass? = NSClassFromString(classStringName)
-            return cls
-        }
-        return nil
-        
-//        let appName = "HiPay"
-//        let classStringName = "_TtC\(appName.characters.count)\(appName)\(className.characters.count)\(className)"
-//        let  cls: AnyClass? = NSClassFromString(classStringName)
-//        return cls
+        let appName = "HiPay"
+        let classStringName = "_TtC\(appName.characters.count)\(appName)\(className.characters.count)\(className)"
+        let  cls: AnyClass? = NSClassFromString(classStringName)
+        return cls
     }
 }
