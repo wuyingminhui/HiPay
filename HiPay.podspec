@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HiPay'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'Payment util with swift'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/wuyingminhui/HiPay.git', :tag => s.version.to_s }
   s.requires_arc     = true
   s.default_subspec = 'Core','AliPay','WxPay','UnionPay'
-  # s.default_subspec = 'Core'
+  # s.default_subspec = 'AliPay'
   s.ios.deployment_target = '8.0'
 
   s.subspec 'Core' do |core|
@@ -40,9 +40,11 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'AliPay' do |alipay|
-    alipay.source_files = 'HiPay/Classes/AlipaySDk', 'HiPay/Classes/AlipaySDk/AlipaySDK.framework/Headers/*'
+    alipay.source_files = 'HiPay/Classes/AlipaySDk', 'HiPay/Classes/AlipaySDk/AlipaySDK.framework/Headers/*','HiPay/Classes/AlipaySDk/openssl/*.{h, m}','HiPay/Classes/AlipaySDk/Util/*.{h, m}'
     alipay.vendored_frameworks = 'HiPay/Classes/AlipaySDk/AlipaySDK.framework'
-    alipay.public_header_files = 'HiPay/Classes/AlipaySDk/AlipaySDK.framework/Headers/**/*.h'
+    alipay.vendored_libraries = 'HiPay/Classes/AlipaySDk/*.a'
+    alipay.resource = 'HiPay/Classes/AlipaySDk/AlipaySDK.bundle'
+    alipay.public_header_files = 'HiPay/Classes/AlipaySDk/AlipaySDK.framework/Headers/**/*.h', 'HiPay/Classes/AlipaySDk/Util/*.h'
     alipay.frameworks = 'CoreMotion', 'CoreGraphics', 'CoreText', 'QuartzCore'
     alipay.dependency 'HiPay/Core'
   end

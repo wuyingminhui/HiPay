@@ -57,6 +57,15 @@ typedef void(^CompletionBlock)(NSDictionary *resultDic);
 - (void)processOrderWithPaymentResult:(NSURL *)resultUrl
                       standbyCallback:(CompletionBlock)completionBlock;
 
+
+
+/**
+ *  获取交易token。
+ *
+ *  @return 交易token，若无则为空。
+ */
+- (NSString *)fetchTradeToken;
+
 /**
  *  是否已经使用过
  *
