@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HiPay'
-  s.version          = '0.8.0'
+  s.version          = '0.8.1'
   s.summary          = 'Payment util with swift'
 
 # This description is used to generate tags and improve search results.
@@ -42,7 +42,6 @@ Pod::Spec.new do |s|
   s.subspec 'AliPay' do |alipay|
     alipay.source_files = 'HiPay/Classes/AlipaySDk/*.swift', 'HiPay/Classes/AlipaySDk/AlipaySDK.framework/Headers/*'
     alipay.vendored_frameworks = 'HiPay/Classes/AlipaySDk/AlipaySDK.framework'
-    alipay.vendored_libraries = 'HiPay/Classes/AlipaySDk/*.a'
     alipay.resource = 'HiPay/Classes/AlipaySDk/AlipaySDK.bundle'
     alipay.public_header_files = 'HiPay/Classes/AlipaySDk/AlipaySDK.framework/Headers/**/*.h'
     alipay.frameworks = 'CoreMotion', 'CoreGraphics', 'CoreText', 'QuartzCore'
