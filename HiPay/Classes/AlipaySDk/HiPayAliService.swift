@@ -71,7 +71,7 @@ public class HiPayAliService: BaseHiPay {
     }
 
     /**
-     支付宝支付返回的结果处理
+     支付宝签名处理
 
      - parameter orderString: 订单字符串
 
