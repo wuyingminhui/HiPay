@@ -69,19 +69,4 @@ public class HiPayAliService: BaseHiPay {
         }
         return payStatus
     }
-
-    /**
-     支付宝签名处理
-
-     - parameter orderString: 订单字符串
-
-     - parameter private_key: 商户私钥
-     
-     - returns: 返回处理结果
-     */
-    
-    private func alipaySign (orderString: String, private_key: String) -> String {
-        return CreateRSADataSigner(private_key).signString(orderString);
-    }
-    
 }
