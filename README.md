@@ -9,6 +9,20 @@
 #####实用 : HiPay 现支持微信支付, 支付宝支付, 银联支付主流支付渠道。
 #####快捷 : HiPay 引入只需要几行代码, 正常配置, 就能解决几乎所有支付的问题.
 
+## Installation
+
+HiPay is available through [CocoaPods](http://cocoapods.org).
+To install it, simply add the following line to your Podfile:
+
+```ruby
+pod "HiPay"
+```
+HiPay 可以通过 [CocoaPods](http://cocoapods.org) 安装(推荐). 
+```ruby
+pod "HiPay"
+```
+也可以将classes中的文件引入并设置相关Library Search Paths 及 Header Search Paths使用
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -47,30 +61,30 @@ SDK主要包含的文件
 #####2.4.1 URL Types设置:
 `URL Schemes`建议使用appid, 或者使用Bundle identifier
 HiPay使用过程中需要添加两个URL Types回调协议， 如下图:
+![图片](https://github.com/wuyingminhui/HiPay/blob/master/HiPay/Assets/url_scheme.png)
 
 #####2.4.2 Http设置:
 在Xcode7.0之后的版本中进行http请求时，需要在工程对应的plist文件中添加NSAppTransportSecurity  Dictionary 并同时设置里面NSAllowsArbitraryLoads 属性值为 YES，具体设置可参照以下截图：
+![图片](https://github.com/wuyingminhui/HiPay/blob/master/HiPay/Assets/security.png)
 
 #####2.4.3 添加协议白名单:
 
 在Xcode7.0之后的版本中进行开发，需要在工程对应的plist文件中，添加LSApplicationQueriesSchemes  Array并加入weixin、uppaysdk、uppaywallet、uppayx1、uppayx2、uppayx3 这六个item
+```Swift
+<key>LSApplicationQueriesSchemes</key>
+<array>
+	<string>weixin</string>
+  <string>uppaysdk</string>
+  <string>uppaywallet</string>
+  <string>uppayx1</string>
+  <string>uppayx2</string>
+  <string>uppayx3</string>
+</array>
+```
 这里的白名单并不完整, 只是其中一部分, 因此在使用过程中, 可能会发出警告.
 
-## Installation
-
-HiPay is available through [CocoaPods](http://cocoapods.org).
-To install it, simply add the following line to your Podfile:
-
-```ruby
-pod "HiPay"
-```
-HiPay 可以通过 [CocoaPods](http://cocoapods.org) 安装(推荐). 
-```ruby
-pod "HiPay"
-```
-也可以将classes中的文件引入并设置相关Library Search Paths 及 Header Search Paths使用
-
-###HiPay的接口说明:
+## Description
+##HiPay的接口说明:
 * [HiPay微信支付接口说明](https://github.com/wuyingminhui/HiPay/blob/master/HiPay/Classes/WxSDK/Guide.md)
 * [HiPay支付宝接口说明](https://github.com/wuyingminhui/HiPay/tree/master/HiPay/Classes/AlipaySDk/Guide.md)
 * [HiPay银联接口说明](https://github.com/wuyingminhui/HiPay/tree/master/HiPay/Classes/UPPaySDK/Guide.md)
