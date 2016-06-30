@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HiPay'
-  s.version          = '0.8.1'
-  s.summary          = 'Payment util with swift'
+  s.version          = '0.9.0'
+  s.summary          = 'Payment util with swift, support WeixinPay, Alipay, Unionpay'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
