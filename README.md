@@ -11,12 +11,6 @@
 
 ## Installation
 
-HiPay is available through [CocoaPods](http://cocoapods.org).
-To install it, simply add the following line to your Podfile:
-
-```ruby
-pod "HiPay"
-```
 HiPay 可以通过 [CocoaPods](http://cocoapods.org) 安装(推荐). 
 ```ruby
 pod "HiPay"
