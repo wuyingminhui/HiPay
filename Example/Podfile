@@ -1,11 +1,6 @@
+platform :ios, "8.0"
 use_frameworks!
-
-target 'HiPay_Example' do
-  pod 'HiPay', :path => '../'
-
-  target 'HiPay_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target "HiPay_Example" do
+    pod "HiPay"
 end
+

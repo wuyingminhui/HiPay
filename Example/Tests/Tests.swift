@@ -1,6 +1,5 @@
 import UIKit
 import XCTest
-import HiPay
 
 class Tests: XCTestCase {
     
