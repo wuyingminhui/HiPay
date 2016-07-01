@@ -18,9 +18,11 @@ pod "HiPay"
 也可以将classes中的文件引入并设置相关Library Search Paths 及 Header Search Paths使用
 
 ## Example
+在构建Example项目之前，您需要先进行 `pod install` 。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
+如果您需要使用AliPay本地签名方法。 需要以下步骤:
+* 您需要在 [这里](https://github.com/wuyingminhui/HiPay/tree/master/Example/HiPay/ThirdParty/AliPay) 下载libssl.a， libcrypto.a
+* 将下载的库放入 Example/HiPay/ThirdParty/AliPay, 并添加相关引用。
 
 ## Requirements
 ###HiPay 统一配置说明
@@ -79,6 +81,19 @@ HiPay使用过程中需要添加两个URL Types回调协议， 如下图:
 
 ## Description
 ##HiPay的接口说明:
+####统一的回调
+HiPay需要您在AppDelegate中加入统一的回调方法
+
+```Swift
+func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+    return HiPay.handlerOpenURL(url)
+}
+    
+func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
+    return HiPay.handlerOpenURL(url)
+}
+```
+####分类支付渠道说明
 * [HiPay微信支付接口说明](https://github.com/wuyingminhui/HiPay/blob/master/HiPay/Classes/WxSDK/Guide.md)
 * [HiPay支付宝接口说明](https://github.com/wuyingminhui/HiPay/tree/master/HiPay/Classes/AlipaySDk/Guide.md)
 * [HiPay银联接口说明](https://github.com/wuyingminhui/HiPay/tree/master/HiPay/Classes/UPPaySDK/Guide.md)
