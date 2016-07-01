@@ -100,7 +100,7 @@ func application(app: UIApplication, openURL url: NSURL, options: [String : AnyO
 
 ## Author
 
-jasonwoo, wuyingminhui@gmail.com
+jasonwoo, jason@ctofunds.com
 
 ## License
 
